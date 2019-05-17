@@ -122,9 +122,9 @@ Collecting https://github.com/matplotlib/basemap/archive/master.zip
 This will take a bit some time to install but it should be fine,
 
 Done forget this is the directory that I set in the .bash_profile in MacPro
-### ============================================================================
+### ==================================================
 ###     Setting PATH form Basemap Package for Python
-### ============================================================================
+### ==================================================
 ```
 export GEOS_DIR=/usr/local/Cellar/geos/3.7.2/  # Of course Check through the version: brew info geos
 ```
