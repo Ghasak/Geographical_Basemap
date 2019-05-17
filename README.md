@@ -49,7 +49,7 @@ See below:
 
 1.1 What I used Working
 On 10.15 Mojave today I did:
-#   Command Note
+## Command Note
 ```
 1. brew install geos   // I have already installed the brew
 2. Pip3 install https://github.com/matplotlib/basemap/archive/master.zip   // I have used pip3 of the virtualenv in python]
