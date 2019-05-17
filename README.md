@@ -9,7 +9,7 @@ tricks and tips on how to use the package (**basemap**)
 * On MacPro: ~/Desktop/My_DATA_MP/Leaning
 
 
-##Expected Results:
+## Expected Results:
 Showing the Globe see here:
 ![](https://github.com/Ghasak/Geographical_Basemap/blob/master/1.png)
 
@@ -17,7 +17,7 @@ And locate a specific location see here:
 
 ![](https://github.com/Ghasak/Geographical_Basemap/blob/master/2.png)
 
-##Sub title:
+## Sub title:
 Here we add the following ideas
 1. Install the following packages and following the website:
 ```
