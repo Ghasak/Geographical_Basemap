@@ -193,6 +193,13 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Inspiration
 following this project from:
 My Original thoughts.
+* https://stackoverflow.com/questions/42299352/installing-basemap-on-mac-python
+* https://matplotlib.org/basemap/users/installing.html
+* https://sourceforge.net/projects/matplotlib/files/matplotlib-toolkits/
+* https://www.fsanmartin.co/mac-install-matplotlib-basemap-on-virtualenv/
+* https://apple.stackexchange.com/questions/224276/use-brew-to-check-version-of-software-online-before-installed
+* http://www.learningaboutelectronics.com/Articles/How-to-set-the-size-of-a-figure-in-matplotlib-with-Python.php
+
 
 ## To add some keyboard keys use:
 <kbd>Ctrl</kbd>
