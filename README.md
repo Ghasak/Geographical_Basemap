@@ -17,7 +17,7 @@ And locate a specific location see here:
 
 ![](https://github.com/Ghasak/Geographical_Basemap/blob/master/2.png)
 
-## Sub title:
+## Steps: How to install basemap in Mac
 Here we add the following ideas
 1. Install the following packages and following the website:
 ```
