@@ -9,6 +9,10 @@ tricks and tips on how to use the package (**basemap**)
 ```
 * On MacPro: ~/Desktop/My_DATA_MP/Leaning
 
+* On MacBook Pro: ~/Desktop/MPDATA/LearningMB
+We needed to install the package in Homebrew and to set the external PATH in the (**.bash_profile**).
+
+
 
 ## Expected Results:
 Showing the Globe see here:
