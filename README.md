@@ -2,9 +2,10 @@
 The Basemap package allow us to run python scipt similar to the QGIS with many features.
 It is a part of the Toyota Project that I am working one and here is simply just some
 tricks and tips on how to use the package (**basemap**)
+
 * I have used a virtualenv on MacPro Located:
 ```
-~/Desktop/My_DATA_MP/Learning/geographicalplot
+~/Desktop/My_DATA_MP/Learning/2_geographicalplot
 ```
 * On MacPro: ~/Desktop/My_DATA_MP/Leaning
 
