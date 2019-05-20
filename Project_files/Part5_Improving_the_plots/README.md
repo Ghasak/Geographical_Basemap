@@ -32,6 +32,36 @@ see the results here:
 ![](https://github.com/Ghasak/Geographical_Basemap/blob/master/Project_files/Part5_Improving_the_plots/Resources/Screen%20Shot%202019-05-20%20at%2018.10.31.png)
 ## Authors
 
+
+## Step -3-
+I have created a function externally and called through our main code. The practice here is not so efficient as the function is rely on the object (m) to be define in the main script file **5_tutorial.py**. The function is located withing the  directory of this tutorial part namely **input_point_function**
+```
+import numpy as np
+import matplotlib
+matplotlib.use('TkAgg')
+import matplotlib.pyplot as plt
+from mpl_toolkits.basemap import Basemap
+
+
+
+def input_point(atloc, lonloc, sizex, colorx, alphax):
+    '''
+    - Our function to draw a specific x and y on a map
+        - This function need a m-object from basemap to be define first.
+            this is not an efficient way to define a function since it rely heavily on define
+            the object (m) which is needed to plot the map itself.
+    '''
+    m = Basemap(projection='mill',
+                llcrnrlat=20,
+                urcrnrlat=50,
+                llcrnrlon=-130,
+                urcrnrlon=-60, resolution='c')
+    lat, lon = atloc, lonloc
+    x, y = m(lon, lat)
+    return m.plot(x, y, 'go', markersize=sizex, color=colorx, alpha=alphax)
+
+```
+
 * **Ghasak Ibrahim** - *Initial work* -
 
 ## License

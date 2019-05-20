@@ -4,6 +4,9 @@ matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 from mpl_toolkits.basemap import Basemap
 
+# User Define Function {Ghasak} to draw points on our selected map
+from input_point_function import input_point   # Or you can use (*)
+
 #plt.figure(figsize=(8, 8))
 
 m = Basemap(projection='mill',
@@ -12,12 +15,6 @@ m = Basemap(projection='mill',
             llcrnrlon=-130,
             urcrnrlon=-60, resolution='c')
 # 'c' is for crucial resolution, you can change to 'l', 'h' ..etc.
-
-
-def input_point(atloc, lonloc, sizex, colorx, alphax):
-    lat, lon = atloc, lonloc
-    x, y = m(lon, lat)
-    return m.plot(x, y, 'go', markersize=sizex, color=colorx, alpha = alphax)
 
 '''
 Putting your Coordinates here:
@@ -44,8 +41,6 @@ lon2 = [-113, -100, -102, -111, -112]
 input_point(lat, lon, 15, "y",0.7)
 input_point(lat2,lon2, 25, "r", 0.6)
 
-
-
 m.drawcoastlines()
 m.drawcounties()
 m.drawstates()
@@ -57,5 +52,7 @@ m.drawmapboundary(fill_color='#FFFFFF')
 plt.title('GeoPlotting!')
 plt.show()
 plt.close()
+
+
 
 
