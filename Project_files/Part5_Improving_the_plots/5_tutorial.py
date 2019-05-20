@@ -38,8 +38,12 @@ lon = [-103,-110,-107,-111,-115]
 lat2 = [40, 33, 44, 31, 30]
 lon2 = [-113, -100, -102, -111, -112]
 
-input_point(lat, lon, 15, "y",0.7)
-input_point(lat2,lon2, 25, "r", 0.6)
+lat3 = [42, 36, 40, 51, 26]
+lon3 = [-113, -100, -102, -111, -112]
+
+input_point(m, lat, lon, 15, "y",0.7)
+input_point(m, lat2,lon2, 25, "r", 0.6)
+input_point(m,lat3, lon3, 20, "black", 0.5  )
 
 m.drawcoastlines()
 m.drawcounties()
