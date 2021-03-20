@@ -5,7 +5,7 @@ cycler==0.10.0
 Flask==1.0.2
 geos==0.2.1
 itsdangerous==1.1.0
-Jinja2==2.10.1
+Jinja2==2.11.3
 kiwisolver==1.1.0
 lxml==4.3.3
 MarkupSafe==1.1.1
